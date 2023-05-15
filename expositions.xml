@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <element>
+    <_id>
+      <__EQ__oid>6040d3a87bd70713886697a3</__EQ__oid>
+    </_id>
+    <expName>111111111111</expName>
+    <expDesc>2</expDesc>
+    <expStart>2021-03-10T14:26</expStart>
+    <expEnd>2021-03-26T14:26</expEnd>
+  </element>
+  <element>
+    <_id>
+      <__EQ__oid>6040d479a104fc1b14719376</__EQ__oid>
+    </_id>
+    <expName>3</expName>
+    <expDesc>3</expDesc>
+    <expStart>2021-03-10T14:26</expStart>
+    <expEnd>2021-03-26T14:26</expEnd>
+  </element>
+  <element>
+    <_id>
+      <__EQ__oid>6040e44241994f14f80d7c9b</__EQ__oid>
+    </_id>
+    <expName>5</expName>
+    <expDesc>5</expDesc>
+    <expStart>2021-03-19T15:31</expStart>
+    <expEnd>2021-03-16T15:31</expEnd>
+  </element>
+  <element>
+    <_id>
+      <__EQ__oid>60548c6aa1206c23d4782e1b</__EQ__oid>
+    </_id>
+    <expName>6</expName>
+    <expDesc>6</expDesc>
+    <expStart>2021-03-13T13:35</expStart>
+    <expEnd>2021-03-15T13:35</expEnd>
+  </element>
+  <element>
+    <_id>
+      <__EQ__oid>60549756f3d6e027f4d7ccff</__EQ__oid>
+    </_id>
+    <expName>Справжня виставка</expName>
+    <expDesc>Повірте наслово</expDesc>
+    <expStart>2021-03-06T14:21</expStart>
+    <expEnd>2021-03-24T14:21</expEnd>
+  </element>
+  <element>
+    <_id>
+      <__EQ__oid>6054a0e9468d28115033d87c</__EQ__oid>
+    </_id>
+    <expName>Ще одна справжня виставка</expName>
+    <expDesc>На цей раз точно</expDesc>
+    <expStart>2021-03-30T15:00</expStart>
+    <expEnd>2021-04-23T15:00</expEnd>
+  </element>
+</root>

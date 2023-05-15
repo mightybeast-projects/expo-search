@@ -1,0 +1,92 @@
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" 
+                rel="stylesheet" 
+                integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" 
+                crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" 
+                integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" 
+                crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body class="d-flex flex-column h-100">
+        <nav class="navbar navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">ExpoSearch</a>
+                <a
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-mdb-toggle="dropdown"
+                    aria-expanded="false"
+                >
+                    <i class="bi bi-list fnt-24 col-wht"></i>
+                </a>
+            </div>
+        </nav>
+
+        <video autoplay muted loop
+        style="filter: brightness(20%); object-fit: cover;
+                min-width: 100%;
+                min-height: 100;">
+            <source src="videoplayback.mp4"  type="video/mp4">
+        </video>
+
+        <div class="div-abs-center form-div">
+            
+            <h1 style="height: 35%; text-align: center;">
+                ExpoSearch
+            </h1>
+            <h5 style="height: 35%; text-align: center;">
+                Зареєструвати нову виставку
+            </h5>
+
+            <form method="post" action="/form">
+                <div class="form-group">
+                    <label for="expName">Назва виставки</label>
+                    <input id="expName" class="form-control" name="expName">
+                </div>
+                <div class="input-group">
+                    <label for="expDesc">Опис виставки</label>
+                    <textarea id="expDesc" class="form-control" style="width: inherit;" name="expDesc"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="expStart">Дата початку</label>
+                    <input id="expStart" type="datetime-local" class="form-control" name="expStart">
+                    <label for="expEnd">Дата закінчення</label>
+                    <input id="expEnd" type="datetime-local" class="form-control" name="expEnd">
+                </div>
+                <button type="submit" class="btn btn-primary">Зареєструвати</button>
+            </form>
+
+        </div>
+
+        <footer class="footer mt-auto py-2 bg-dark">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col">
+                        <button class="btn btn-dark">
+                            <i class="bi bi-facebook"></i>
+                        </button>
+                        <button class="btn btn-dark">
+                            <i class="bi bi-youtube"></i>
+                        </button>
+                        <button class="btn btn-dark">
+                            <i class="bi bi-twitter"></i>
+                        </button>
+                        <a class="btn fnt-16 col-wht">
+                            Contact Us
+                        </a>
+                    </div>
+                    <div class="col" style="text-align: right;">
+                        <div class="btn fnt-20 col-wht">
+                            2021
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
